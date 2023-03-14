@@ -1,7 +1,7 @@
-import { mkdirSync, writeFileSync } from 'fs'
-import { join, basename } from 'path'
-import { request } from 'axios'
-import StoryblokClient from 'storyblok-js-client'
+const fs = require('fs')
+const path = require('path')
+const axios = require('axios')
+const StoryblokClient = require('storyblok-js-client')
 
 const config = {
   // your space id without the #
