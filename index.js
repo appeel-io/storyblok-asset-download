@@ -5,9 +5,9 @@ import StoryblokClient from 'storyblok-js-client'
 
 const config = {
   // your space id without the #
-  space: '',
+  space: 'YOUR_SPACE_ID',
   // https://www.storyblok.com/docs/management-api/authentication#authentication
-  oauthToken: ''
+  oauthToken: 'YOUR_OAUTH_TOKEN'
 }
 
 const storyblok = new StoryblokClient({
